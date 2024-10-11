@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/imageViewTable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/mult_table"
+        android:contentDescription="Таблица умножения"
+        android:layout_marginBottom="16dp" />
+
+
+    <!-- Поле для ввода числа -->
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите число (от 2 до 9)"
+        android:inputType="number"
+        android:maxLength="1"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Кнопка для всех чисел -->
+    <Button
+        android:id="@+id/btn_all_numbers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Упражнение для всех чисел"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Кнопка для выборочного числа -->
+    <Button
+        android:id="@+id/btn_selected_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Упражнение выборочно" />
+
+</LinearLayout>
